@@ -376,7 +376,7 @@ img {
   
     border-radius: 50%;
     color: var(--icon-fill);
-    transition-property: color, var(--modal-background-color);
+    transition-property: color, background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -406,7 +406,7 @@ img {
     color: var(--icon-fill);
     width: 100%;
     height: 100%;
-    transition-property: color, var(--border-color);
+    transition-property: color, border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -551,7 +551,7 @@ img {
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     background-color: var(--another-background-color);
-    transition-property: color, var(--modal-background-color),box-shadow ;
+    transition-property: color, background-color,box-shadow ;
     
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
